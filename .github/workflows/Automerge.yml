@@ -5,7 +5,6 @@ on:								     # WorkFlow 동작 트리거영역
       - main
     types:
       - labeled
-
 jobs:									
   automerge:							     # Automerge Job 영역 시작
     if: ${{ github.event.label.name == 'automerge' }}		     # Git Hub Event Label 정보가 "automerge"로 설정 되어 발생 된 Job 수행
