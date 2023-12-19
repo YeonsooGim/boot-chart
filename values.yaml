@@ -7,7 +7,7 @@ image:
   repository: kys8502/kube-boot # modify
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "b3d43"
+  tag: "125f5"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
